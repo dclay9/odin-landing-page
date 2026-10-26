@@ -11,13 +11,13 @@ body {
     color: #F9FAF8;
 }
 
-.hero h1 {
+.sign-up h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.hero p {
+.sign-up p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -58,4 +58,13 @@ button, .call-to-action {
 li a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 80px;
 }
