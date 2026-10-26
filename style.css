@@ -15,11 +15,13 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
 }
 
 .sign-up p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 button, .call-to-action {
@@ -74,4 +76,10 @@ li a {
     color: white;
     padding: 100px 150px;
     text-wrap: nowrap;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
