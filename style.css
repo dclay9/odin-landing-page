@@ -72,4 +72,6 @@ li a {
 .image {
     background-color: grey;
     color: white;
+    padding: 100px 150px;
+    text-wrap: nowrap;
 }
