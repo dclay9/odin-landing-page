@@ -9,6 +9,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 .sign-up h1 {
@@ -46,7 +47,7 @@ button, .call-to-action {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 16px 200px;
 }
 
 .header ul {
