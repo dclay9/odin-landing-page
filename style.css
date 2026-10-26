@@ -68,3 +68,8 @@ li a {
     padding: 100px 200px;
     gap: 80px;
 }
+
+.image {
+    background-color: grey;
+    color: white;
+}
