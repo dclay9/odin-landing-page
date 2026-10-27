@@ -111,6 +111,7 @@ li a {
 
 .info-box {
     flex-basis: 150px;
+    flex-grow: 0;
     text-wrap: wrap;
     text-align: center;
 }
@@ -120,4 +121,10 @@ li a {
     border-radius: 10px;
     width: auto;
     height: 140px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 350px;
 }
