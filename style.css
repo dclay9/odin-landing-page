@@ -126,5 +126,13 @@ li a {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 100px 350px;
+    padding: 140px 350px 100px;
+}
+
+.quote-source {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 600;
+    text-align: right;
+    font-style: normal;
 }
