@@ -98,12 +98,15 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
+    padding: 40px;
+    padding-bottom: 100px;
 }
 
 .info-boxes {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 40px;
 }
 
 .info-box {
