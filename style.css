@@ -143,4 +143,6 @@ li a {
 
 .call-to-action-box {
     padding: 24px 120px;
+    display: flex;
+    justify-content: space-between;
 }
