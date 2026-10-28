@@ -48,7 +48,7 @@ button, .call-to-action-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 200px;
+    padding: 16px 250px;
 }
 
 .header ul {
@@ -117,10 +117,13 @@ li a, .call-to-action p, .footer{
     flex-grow: 0;
     text-wrap: wrap;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .info-img {
-    border: #3882F6 solid 3px;
+    border: #3882F6 solid 4px;
     border-radius: 10px;
     width: auto;
     height: 140px;
@@ -168,4 +171,8 @@ li a, .call-to-action p, .footer{
 .footer {
     text-align: center;
     padding: 40px;
+}
+
+.info-subtext {
+    color: #6d747d;
 }
