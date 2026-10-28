@@ -146,6 +146,7 @@ li a, .call-to-action p, .footer{
 
 .call-to-action {
     padding: 100px 200px;
+    width: 1000px;
 }
 
 .call-to-action-box {
@@ -158,6 +159,7 @@ li a, .call-to-action p, .footer{
 .call-to-action-left {
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 .call-to-action h1, .call-to-action p {
