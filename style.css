@@ -90,6 +90,7 @@ li a, .call-to-action p, .footer{
 
 .sign-up button, .call-to-action button {
     border-radius: 10px;
+    border: none;
     align-self: flex-start;
     padding: 8px 32px;
     color: #F9FAF8;
@@ -164,7 +165,7 @@ li a, .call-to-action p, .footer{
 }
 
 .call-to-action button {
-    border-color: white;
+    border: white solid 2px;
     align-self: center;
 }
 
