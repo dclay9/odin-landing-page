@@ -6,7 +6,7 @@ body {
     background-color: #1F2937;
 }
 
-.logo {
+.logo, .call-to-action h1 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 600;
@@ -58,7 +58,7 @@ button, .call-to-action-box {
     padding: 0px;
 }
 
-li a {
+li a, .call-to-action p{
     text-decoration: none;
     color: #E5E7EB;
 }
@@ -85,7 +85,7 @@ li a {
     gap: 8px;
 }
 
-.sign-up button {
+.sign-up button, .call-to-action button {
     border-radius: 10px;
     align-self: flex-start;
     padding: 8px 32px;
@@ -145,4 +145,8 @@ li a {
     padding: 24px 120px;
     display: flex;
     justify-content: space-between;
+}
+
+.call-to-action button {
+    border-color: white;
 }
