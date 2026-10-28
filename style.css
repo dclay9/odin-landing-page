@@ -73,22 +73,27 @@ li a, .call-to-action p, .footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
+    height: 500px;
     gap: 48px;
 }
 
 .image {
     background-color: #6d747d;
     color: white;
-    padding: 100px 130px;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-wrap: nowrap;
 }
 
 .sign-up {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     margin: 0;
-    gap: 8px;
+    height: 250px;
     width: 460px;
 }
 
