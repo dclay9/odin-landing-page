@@ -70,20 +70,22 @@ li a, .call-to-action p, .footer{
     justify-content: center;
     align-items: center;
     padding: 100px 200px;
-    gap: 80px;
+    gap: 48px;
 }
 
 .image {
-    background-color: grey;
+    background-color: #6d747d;
     color: white;
-    padding: 100px 150px;
+    padding: 100px 130px;
     text-wrap: nowrap;
 }
 
 .sign-up {
     display: flex;
     flex-direction: column;
+    margin: 0;
     gap: 8px;
+    width: 460px;
 }
 
 .sign-up button, .call-to-action button {
