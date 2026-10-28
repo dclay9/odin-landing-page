@@ -142,11 +142,22 @@ li a, .call-to-action p{
 }
 
 .call-to-action-box {
-    padding: 24px 120px;
+    padding: 48px 120px;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
+}
+
+.call-to-action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action h1, .call-to-action p {
+    margin: 0;
 }
 
 .call-to-action button {
     border-color: white;
+    align-self: center;
 }
